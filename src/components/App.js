@@ -10,18 +10,16 @@ function NavBar() {
 
 function Home() {
   return (
-    <div id="home">
-      <h1>#Home</h1>
-    </div>
-  );
+     <h1>#Home</h1>
+    );
 }
 Home()
 
 function About() {
   return (
-    <div id="about">
+    
       <h2>#About</h2>
-    </div>
+
   );
 }
 About()
@@ -31,8 +29,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      {<h1>Home</h1>}
+      {<h2>About</h2>}
+     <NavBar/>
     </div>
   );
 }
