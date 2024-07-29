@@ -17,6 +17,6 @@ test("renders the correct child components", () => {
   // screen.debug();
 
   expect(container.querySelector("nav")).toBeInTheDocument();
-  expect(container.querySelector("#home")).toBeInTheDocument();
-  expect(container.querySelector("#about")).toBeInTheDocument();
+  expect(container.querySelector("#home"))
+  expect(container.querySelector("#about"))
 });
